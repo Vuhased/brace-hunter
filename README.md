@@ -24,7 +24,7 @@ The best way to use this script is to keep it in your Home folder and make it ac
 Open your terminal and run these commands:
 ```bash
 # Clone the repository
-git clone [https://github.com/Vuhased/brace-hunter.git](https://github.com/Vuhased/brace-hunter.git)
+git clone https://github.com/Vuhased/brace-hunter.git ~/brace-hunter
 ```
 
 ```bash
