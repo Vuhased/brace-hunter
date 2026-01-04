@@ -35,6 +35,8 @@ chmod +x brace-hunter.sh
 # Move it to a system-wide folder so you can run it anywhere
 sudo cp brace-hunter.sh /usr/local/bin/brace-hunter
 
+---
+
 2. How to use
 Now you can run the script from any folder in your terminal by simply typing its name:
 brace-hunter path/to/your/File.java
