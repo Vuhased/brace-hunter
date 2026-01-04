@@ -33,9 +33,7 @@ cd brace-hunter
 chmod +x brace-hunter.sh
 
 # Move it to a system-wide folder so you can run it anywhere
-sudo cp brace-hunter.sh /usr/local/bin/brace-hunter
-
----
+sudo cp brace-hunter.sh /usr/local/bin/brace-hunter '''
 
 2. How to use
 Now you can run the script from any folder in your terminal by simply typing its name:
@@ -45,32 +43,32 @@ brace-hunter path/to/your/File.java
 
 Scenario A: Everything is perfect If your code is clean and all braces are closed, you will see a green success message:
 
-    Open braces { : 452
+*   Open braces { : 452
 
-    Close braces } : 452
+*   Close braces } : 452
 
-    ✅ BALANCE OK
+*   ✅ BALANCE OK
 
 Scenario B: You missed a bracket If you accidentally deleted a brace or commented it out, Brace-Hunter will catch it instantly:
 
-    ❌ BALANCE ERROR!
+*   ❌ BALANCE ERROR!
 
-    You need to add closing braces ( } ): 1
+*   You need to add closing braces ( } ): 1
 
-    Tip: Check your recent changes or /* ... */ comment blocks.
+*   Tip: Check your recent changes or /* ... */ comment blocks.
 
 💡 Key Features
 
-    Smart Filtering: The script is intelligent enough to ignore braces inside quotes (like "{") and skip all types of comments, so you don't get false alarms.
+*   Smart Filtering: The script is intelligent enough to ignore braces inside quotes (like "{") and skip all types of comments, so you don't get false alarms.
 
-    System-Wide Access: By following the installation steps, the tool becomes a permanent part of your Ubuntu system, just like ls or grep.
+*   System-Wide Access: By following the installation steps, the tool becomes a permanent part of your Ubuntu system, just like ls or grep.
 
-    Universal Support: Perfect for Java, C, C++, Rust, Kotlin, and even JavaScript.
+*   Universal Support: Perfect for Java, C, C++, Rust, Kotlin, and even JavaScript.
 
 🤝 Contributing & Support
 
 This tool was created by Vuhased to help fellow "creators" and independent developers avoid the nightmare of waiting for a build to fail.
 
-    Found a bug? Open an Issue on GitHub.
+*   Found a bug? Open an Issue on GitHub.
 
-    Have an improvement? Feel free to submit a Pull Request.
+*   Have an improvement? Feel free to submit a Pull Request.
