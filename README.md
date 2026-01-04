@@ -21,7 +21,7 @@ When manually patching complex system files like `ConnectivityService.java` duri
 The best way to use this script is to keep it in your Home folder and make it accessible from anywhere in the system.
 
 #### 1. Download and Move
-Open your terminal and run these commands:
+Open your new terminal and run these commands:
 ```bash
 # Clone the repository
 git clone https://github.com/Vuhased/brace-hunter.git ~/brace-hunter
