@@ -25,15 +25,22 @@ Open your terminal and run these commands:
 ```bash
 # Clone the repository
 git clone [https://github.com/Vuhased/brace-hunter.git](https://github.com/Vuhased/brace-hunter.git)
+```
 
+```bash
 # Move to the script folder
 cd brace-hunter
+```
 
+```bash
 # Give the script permission to run
 chmod +x brace-hunter.sh
+```
 
+```bash
 # Move it to a system-wide folder so you can run it anywhere
-sudo cp brace-hunter.sh /usr/local/bin/brace-hunter '''
+sudo cp brace-hunter.sh /usr/local/bin/brace-hunter
+```
 
 2. How to use
 Now you can run the script from any folder in your terminal by simply typing its name:
